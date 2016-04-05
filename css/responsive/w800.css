@@ -1,0 +1,5 @@
+@media screen and (min-width: 800px){
+	.menu-block .wpb-row .wpb-item-price .wpb-item-price-title{
+		display: block;
+	}
+}

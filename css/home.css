@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'lobsterregular';
+    src: url('../fonts/lobster-regular-webfont.eot');
+    src: url('../fonts/lobster-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lobster-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lobster-regular-webfont.woff') format('woff'),
+         url('../fonts/lobster-regular-webfont.ttf') format('truetype'),
+         url('../fonts/lobster-regular-webfont.svg#lobsterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.overlay{
+	background: #000;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    opacity: 0.45;
+        z-index: 100;
+}
+.skin-light #navbar-container, .skin-light #mobile-bar{
+	background: transparent;
+}
+.skin-light #navbar-container, .skin-light #navbar-container a, .skin-light #navbar-container .wpb-social, .skin-light #toggle, .skin-light .entry-link{
+	color: #fff;
+}
+.logo{
+	margin-top: 12px;
+}
+.wpb-font-dark{
+	background: #fff;
+}
+.wpb-video-bg-container.videobg{
+	background: url(../images/video.png) no-repeat center;
+	background-size: cover;
+}
+.wpb-font-light .wpb-button.ab_button{
+	background: transparent;
+	border: 1px solid #c38000;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.2;
+}
+.wpb-font-light .wpb-button.ab_button:hover{
+	background: #c38000;
+}
+.skin-light #navbar-container, .skin-light #mobile-bar{
+	border-bottom: 0;
+}
+h2.h2title{
+	color:#ffbd3d;
+	font-family: "lobsterregular";
+	font-size: 36px;
+	text-transform: none;
+}
+.about-block p{
+	font-size: 18px;
+	line-height: 1.2;
+}
+.menu-block .wpb-text-block h2.h2title{
+	padding-bottom: 10px;
+	font-size: 32px;
+}
+.seefullMenu{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.seefullMenu a{
+	background: #ffbd3d;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px 118px;
+    font-weight: bold;
+}
+.seefullMenu a:hover{
+	opacity: 0.8;
+}
+
+.menu-block .wpb-item-price-text .wpb-item-price-content {
+	color: #939393;
+	font-size: 15px;
+}
+.menu-block .wpb-item-price-title{
+	color: #353535;
+	font-size: 18px;
+}
+.menu-block .wpb-row-large-width{
+	width: 78%;
+}
+.intro-block .wpb-text-block h4{
+	color: #353535;
+	font-size: 20px;
+}
+.intro-block .wpb-row-standard-width{
+	width: 80%;
+}
+.intro-block .wpb-row-standard-width h4 span{
+	display: inline;
+}
+.quality-block .wpb-fittext{
+	color: #ffbe42;
+}
+.quality-block .text-block {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.wpb-section .wpb-row:last-child{
+	margin-bottom: 50px;
+}
+.wpb-section-columns .wpb-section-inner{
+
+}
+.whole-block .wpb-text-block h4{
+	font-size: 18px;
+}
+.whole-block.wpb-section-columns .wpb-section-inner{
+	padding: 3em 0;
+}
+.whole-block.wpb-section .wpb-row:last-child{
+	margin-bottom: 0;
+}
+.enjoy-block .wpb-section-inner .wpb-text-block{ 
+	font-size: 24px;
+}
+.enjoy-block.wpb-section-columns .wpb-section-inner{
+	padding: 3em 0;
+}
+.video-block2 .wpb-text-block{
+	font-weight: bold;
+	font-size: 26px;
+	text-transform: uppercase;
+}
+
+.footer-block .col02 .wpb-block-content{
+	border: 1px solid #c38000;
+}
+.footer-block .col02 .wpb-block-content{
+	max-width: 95%;
+}
+.footer-block .col02.wpb-block-text .wpb-block-inner{
+	padding: 6em 0;	
+	padding-left: 13%;
+}
+.sidebar-footer blockquote{
+	text-align: left;
+}
+.wolf ul.wolf-tweet-list li:before{
+	color: #c38000;
+}
+.wpb-arrow-down:hover{
+	    background: #c38000;
+    border-color: #c38000;
+}
