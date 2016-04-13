@@ -1835,7 +1835,7 @@ a#scroll-down:before {
 */
 .nav-menu li a span.menu-item-inner,
 .nav-menu-mobile li a span.menu-item-inner {
-  font-family: "Montserrat", "Helvetica", serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .admin-bar.sticky-menu #navbar-container,

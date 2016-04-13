@@ -57,6 +57,9 @@
       <link rel='stylesheet'  href='css/datepicker.css?ver=1.4.3' type='text/css' media='all' />
       <link rel='stylesheet'  href='css/latoja.datepicker.css' type='text/css' media='all' />
       <link rel='stylesheet'  href='css/slick.min.css' type='text/css' media='all' />
+
+      <link rel='stylesheet'  href='css/filter.css' type='text/css' media='all' />
+
       <link rel='stylesheet' id='wolftheme-theme-google-fonts-css'  href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,700|Oswald:400,700|Alex+Brush|Noto+Serif:400,700&#038;subset=latin,latin-ext' type='text/css' media='all' />
       <script type='text/javascript' src='js/jquery.js?ver=1.11.3'></script>
       <script type='text/javascript' src='js/slick.min.js?ver=1.2.1'></script>
@@ -71,10 +74,7 @@
       <link rel='shortlink' href='http://demo.wolfthemes.com/bite/' />
       <link rel='stylesheet' id='bite-default-css'  href='css/responsive/w800.css?ver=1.1.5' type='text/css' media='all' />
 
-      <style type="text/css">
-         /* Customizer */
-         h1, h2, h3, h4, h5, .entry-title, .widget-title, .wpb-counter-text, .wpb-countdown-period{font-family:'Oswald'}h1, h2, h3, h4, h5, .entry-title, .widget-title, .wpb-counter-text, .wpb-countdown-period{font-style:normal}.nav-menu li a span.menu-item-inner, .nav-menu-mobile li a span.menu-item-inner{ font-family:'Montserrat'}.nav-menu li a span.menu-item-inner, .nav-menu-mobile li a span.menu-item-inner{font-weight:700}.nav-menu li a span.menu-item-inner, .nav-menu-mobile li a span.menu-item-inner{text-transform:uppercase}
-      </style>
+      <link href="css/index.css" type="text/css"/>
       <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 
       
@@ -120,36 +120,7 @@
       </div>
       <!-- #navbar-mobile-container -->
       <div class="site-container">
-         <div class="orderBox">
-            <form method="" action="">
-               <div class="order_slide1">
-                  <a href="#" class="close">x</a>
-                  <div class="restaurant">
-                    <p> Họ tên </p>
-                    <input type="text" value="" name="username" placeholder="Họ và tên">
-                  </div>
-                  <div class="calendar">
-                    <p> Thời gian </p>
-                    <input id="date-picker-1" type="text" class="date-picker ll-skin-latoja" value="">
-                  </div>
-                  <div class="time">
-                    <p> Giờ </p>
-                    <select name="request[time]" id="time_order"><option value="10 : 00">10 : 00</option><option value="10 : 30">10 : 30</option><option value="11 : 00">11 : 00</option><option value="11 : 30">11 : 30</option><option value="12 : 00">12 : 00</option><option value="12 : 30">12 : 30</option><option value="13 : 00">13 : 00</option><option value="13 : 30">13 : 30</option><option value="14 : 00">14 : 00</option><option value="14 : 30">14 : 30</option><option value="15 : 00">15 : 00</option><option value="15 : 30">15 : 30</option><option value="16 : 00">16 : 00</option><option value="16 : 30">16 : 30</option><option value="17 : 00">17 : 00</option><option value="17 : 30">17 : 30</option><option value="18 : 00">18 : 00</option><option value="18 : 30">18 : 30</option><option value="19 : 00">19 : 00</option><option value="19 : 30">19 : 30</option><option value="20 : 00">20 : 00</option><option value="20 : 30">20 : 30</option><option value="21 : 00">21 : 00</option><option value="21 : 30">21 : 30</option><option value="22 : 00">22 : 00</option><option value="22 : 30">22 : 30</option></select>
-                  </div>
-                  <div class="mumberparty">
-                    <p> Số người </p>
-                    <select name="request[numberparty]">
-                      <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option>                <option value="15+">15+</option>
-                    </select>
-                  </div>
-                  <div class="button_request" id="contactbtn"> 
-                     <p>&nbsp;</p>
-                     <a href="#" class="btn">Đặt bàn</a> 
-                  </div>
-                  <div class="clear"></div>
-                </div>
-            </form>
-         </div>
+         
          <div id="page" class="hfeed site pusher">
             <div id="page-content">
                <header id="masthead" class="site-header clearfix">
@@ -262,15 +233,42 @@
                            
                            <!--.wpb-section-->
                            <section class="wpb-section wpb-section-1-cols wpb-section-columns wpb-font-dark menu-block">
-                              <div class="wpb-section-inner" style="padding-top:50px;padding-bottom:50px;">
+
+                              <div class="orderBox">
+                                 <div class="ordergroup">
+                                    <form method="" action="">
+                                    <div class="order_slide1">
+                                       <div class="restaurant">
+                                         <p> Họ tên </p>
+                                         <input type="text" value="" name="username" placeholder="Họ và tên">
+                                       </div>
+                                       <div class="calendar">
+                                         <p> Thời gian </p>
+                                         <input id="date-picker-1" type="text" class="date-picker ll-skin-latoja" value="">
+                                       </div>
+                                       <div class="time">
+                                         <p> Giờ </p>
+                                         <select name="request[time]" id="time_order"><option value="10 : 00">10 : 00</option><option value="10 : 30">10 : 30</option><option value="11 : 00">11 : 00</option><option value="11 : 30">11 : 30</option><option value="12 : 00">12 : 00</option><option value="12 : 30">12 : 30</option><option value="13 : 00">13 : 00</option><option value="13 : 30">13 : 30</option><option value="14 : 00">14 : 00</option><option value="14 : 30">14 : 30</option><option value="15 : 00">15 : 00</option><option value="15 : 30">15 : 30</option><option value="16 : 00">16 : 00</option><option value="16 : 30">16 : 30</option><option value="17 : 00">17 : 00</option><option value="17 : 30">17 : 30</option><option value="18 : 00">18 : 00</option><option value="18 : 30">18 : 30</option><option value="19 : 00">19 : 00</option><option value="19 : 30">19 : 30</option><option value="20 : 00">20 : 00</option><option value="20 : 30">20 : 30</option><option value="21 : 00">21 : 00</option><option value="21 : 30">21 : 30</option><option value="22 : 00">22 : 00</option><option value="22 : 30">22 : 30</option></select>
+                                       </div>
+                                       <div class="mumberparty">
+                                         <p> Số người </p>
+                                         <select name="request[numberparty]">
+                                           <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option>                <option value="15+">15+</option>
+                                         </select>
+                                       </div>
+                                       <div class="button_request" id="contactbtn"> 
+                                          <p>&nbsp;</p>
+                                          <a href="#" class="btn">Đặt bàn</a> 
+                                       </div>
+                                       <div class="clear"></div>
+                                     </div>
+                                 </form>
+                                 </div>
+                              </div>
+
+                              <div class="wpb-section-inner menu-block" style="padding-top:50px;padding-bottom:50px;">
                                  <div style="margin-top:0px;margin-bottom:0px;" class="wpb-row wpb-row-large-width">
-                                    <div class="searchform">
-                                       <h3>Tìm kiếm</h3>
-                                       <form action="" method="">
-                                          <input type="search" placeholder="" id="s">
-                                          <input type="submit" value="" class="btnSearch">
-                                       </form>
-                                    </div>
+                                    
                                     <div class="wpb-col-4 wpb-first">
                                        <div class="wpb-text-block wow fadeInLeft">
                                           <h2 class="h2title">Starters</h2>
@@ -450,7 +448,7 @@
                            </section>
 
                            <!--.wpb-section-->
-                           <section style="background-position:center center;background-repeat:no-repeat;-webkit-background-size: 100%; -o-background-size: 100%; -moz-background-size: 100%; background-size: 100%;-webkit-background-size: cover; -o-background-size: cover; background-size: cover;" class="intro-block wpb-section wpb-section-1-cols wpb-section-columns wpb-font-dark">
+                           <section  style="background-position:center center;background-repeat:no-repeat;-webkit-background-size: 100%; -o-background-size: 100%; -moz-background-size: 100%; background-size: 100%;-webkit-background-size: cover; -o-background-size: cover; background-size: cover;" class="intro-block wpb-section wpb-section-1-cols wpb-section-columns wpb-font-dark">
                               <div class="wpb-section-inner">
                                  <div class="wpb-row wpb-row-standard-width">
                                     <div class="">
@@ -493,7 +491,7 @@
                                        <div class="wpb-block-content about-block">
                                           <div class="wpb-block-inner">
                                              <div class="wpb-text-block wow fadeInRightBig">
-                                                <h2 class="h2title">About us</h2>
+                                                <h2 class="h2title">Giới thiệu</h2>
                                                 <p>We are a family run business who pride ourselves in serving the finest, sustainable fish alongside locally sourced potatoes. Tempor tincidunt lectus adipiscing pid habitasse facilisis dignissim porta magna enim egestas nec mid integer ac? Etiam nascetur et urna sed, enim aenean placerat cum? Integer, mus pulvinar vut quis, nisi placerat, rhoncus! Turpis.</p>
                                              </div>
                                              <div class="wpb-button-container wow fadeInUp wpb-text-left" style="animation-delay:0.4s;-webkit-animation-delay:0.4s;"><span class="wpb-button-inner"><a data-color-hover="#c38000" class="ab_button wpb-button wpb-icon-before wpb-medium wpb-flat" href="#">MORE INFOS</a></span> </div>
@@ -540,22 +538,41 @@
                            <section class="wpb-section wpb-section-1-cols wpb-section-columns wpb-font-dark">
                               <div class="wpb-section-inner" style="padding-top:0px;padding-bottom:0px;">
                                  <div class="wpb-row wpb-row-full-width">
-                                    <div class="">
-                                       <style scoped> #wpb-gallery-397 .wpb-block { float: left; width: 33.32%;}</style>
-                                       <div id="wpb-gallery-397" class="wpb-images-gallery wpb-clearfix wpb-simple-gallery wpb-hover-scale-to-greyscale">
-                                          <div class='wpb-block'><a href="images/p-1-big.jpg" class="wpb-lightbox wpb-image-inner" data-wpb-rel="wpb-gallery-397"><img src="images/p-1.jpg" alt=""></a></div>
-                                          <!-- .wpb-block -->
-                                          <div class='wpb-block'><a href="images/p-2-big.jpg" class="wpb-lightbox wpb-image-inner" data-wpb-rel="wpb-gallery-397"><img src="images/p-2.jpg" alt=""></a></div>
-                                          <!-- .wpb-block -->
-                                          <div class='wpb-block'><a href="images/p-3-big.jpg" class="wpb-lightbox wpb-image-inner" data-wpb-rel="wpb-gallery-397"><img src="images/p-3.jpg" alt=""></a></div>
-                                          <!-- .wpb-block -->
-                                          <div class='wpb-block'><a href="images/p-4-big.jpg" class="wpb-lightbox wpb-image-inner" data-wpb-rel="wpb-gallery-397"><img src="images/p-4.jpg" alt=""></a></div>
-                                          <!-- .wpb-block -->
-                                          <div class='wpb-block'><a href="images/p-5-big.jpg" class="wpb-lightbox wpb-image-inner" data-wpb-rel="wpb-gallery-397"><img src="images/p-5.jpg" alt=""></a></div>
-                                          <!-- .wpb-block -->
-                                          <div class='wpb-block'><a href="images/p-6-big.jpg" class="wpb-lightbox wpb-image-inner" data-wpb-rel="wpb-gallery-397"><img src="images/p-6.jpg" alt=""></a></div>
-                                          <!-- .wpb-block -->
-                                       </div>
+                                    <div class="cd-main-content">
+                                       <h3 class="center title">Menus</h3>
+                                       <div class="cd-tab-filter-wrapper menuFitler">
+                                          <div class="cd-tab-filter">
+                                             <ul class="cd-filters">
+                                                <li class="placeholder"> 
+                                                   <a data-type="all" href="#0">All</a> <!-- selected option on mobile -->
+                                                </li> 
+                                                <li class="filter"><a class="" href="#0" data-type="all">All</a></li>
+                                                <li class="filter" data-filter=".product-1"><a href="#0" data-type="product-1">Avocado</a></li>
+                                                <li class="filter" data-filter=".product-2"><a href="#0" data-type="product-2">Apple</a></li>
+                                                <li class="filter" data-filter=".product-1"><a href="#0" data-type="product-3">Dired tuna</a></li>
+                                                <li class="filter" data-filter=".product-2"><a href="#0" data-type="product-4">radish</a></li>
+                                             </ul> <!-- cd-filters -->
+                                          </div> <!-- cd-tab-filter -->
+                                       </div> <!-- cd-tab-filter-wrapper -->
+                                       <style scoped> .wpb-images-gallery .wpb-block { float: left; width: 33.32%;}</style>
+                                       
+
+                                          <div class="wpb-images-gallery wpb-clearfix wpb-simple-gallery wpb-hover-scale-to-greyscale">
+                                             <section class="cd-gallery">
+                                                <ul>
+                                                   <li class="mix color-1 check1 wpb-block"><a href="images/p-1-big.jpg" class="wpb-lightbox wpb-image-inner"><img src="images/p-1.jpg" alt=""></a></li>
+                                                   <li class="mix color-2 check2 wpb-block"><a href="images/p-2-big.jpg" class="wpb-lightbox wpb-image-inner"><img src="images/p-2.jpg" alt=""></a></li>
+                                                   <li class="mix color-3 check3 wpb-block"><a href="images/p-3-big.jpg" class="wpb-lightbox wpb-image-inner"><img src="images/p-3.jpg" alt=""></a></li>
+                                                   <li class="mix color-4 check4 wpb-block"><a href="images/p-4-big.jpg" class="wpb-lightbox wpb-image-inner"><img src="images/p-4.jpg" alt=""></a></li>
+                                                   <li class="mix color-1 check1 wpb-block"><a href="images/p-5-big.jpg" class="wpb-lightbox wpb-image-inner"><img src="images/p-5.jpg" alt=""></a></li>
+                                                   <li class="mix color-2 check2 wpb-block"><a href="images/p-6-big.jpg" class="wpb-lightbox wpb-image-inner"><img src="images/p-6.jpg" alt=""></a></li>
+                                                   
+                                                </ul>
+                                                <div class="cd-fail-message">No results found</div>
+                                             </section>
+                                             <!-- .wpb-block -->
+                                          </div>
+                                          
                                        <!--.wpb-simple-gallery-->
                                     </div>
                                     <!--.wpb-col-->
@@ -784,19 +801,15 @@
       <script type='text/javascript' src='js/jquery.haParallax.min.js?ver=1.0.1'></script>
       <script type='text/javascript' src='js/jquery.flexslider.min.js?ver=2.5.0'></script>
       <script type='text/javascript' src='js/bootstrap-datepicker.js?ver=1.2.1'></script>
-
+      <script src="js/jquery.mixitup.min.js"></script>
+      <script src="js/main.js"></script> <!-- Resource jQuery -->
       <script>
          jQuery(document).ready(function(){
             jQuery('.ordernow').click(function(){
-               jQuery('.orderBox').show();
-               if(jQuery('body').hasClass('breakpoint')){
-                  jQuery('#navbar-mobile-container').removeAttr('style');
-                  jQuery('body').removeClass( 'menu-toggle' );
-                  
-               }
-            });
-            jQuery('a.close').click(function(){
-               jQuery('.orderBox').hide();
+               
+               jQuery('html,body').animate({
+                 scrollTop: jQuery(".orderBox").offset().top - 81},
+                 500);
             });
             jQuery(".date-picker" ).datepicker({ dateFormat: "dd-mm-yy"});
              jQuery(".date-picker").on("change", function () {
