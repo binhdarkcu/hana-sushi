@@ -1,47 +1,47 @@
 /*
 
-	MAIN STYLESHEET
-	=-=-=-=-=-=-=-=-=-=
-	
-	  1. Loader
-	  2. Custom fonts
-	  3. Clearing
-	  4. Base
-	  5. Fluid videos
-	  6. Video background
-	  7. Forms
-	  8. Helpers
-	  9. Medias
-	10. Tables
-	11. WordPress default classes
-	12. Flexslider custom styles
-	13. Swipebox custom styles
-	14. Containers
-	15. Typography
-	16. Buttons
-	17. Header
-	18. Navigation
-	19. Entry
-	20. Gallery
-	21. Widgets
-	22. Footer
-	23. Skins
-	24. Comments
-	25. Pagination
-	26. Zoom animation
-	27. No touchable devices
-	28. 404 page
-	29. Search
-	30. Wolf Page Builder
-	31. Wolf Twitter
-	32. Plugin Izotope filter
-	33. Wolf Albums
-	34. Wolf Videos
-	35. Wolf Tour Dates
-	36. Media queries
+  MAIN STYLESHEET
+  =-=-=-=-=-=-=-=-=-=
+  
+    1. Loader
+    2. Custom fonts
+    3. Clearing
+    4. Base
+    5. Fluid videos
+    6. Video background
+    7. Forms
+    8. Helpers
+    9. Medias
+  10. Tables
+  11. WordPress default classes
+  12. Flexslider custom styles
+  13. Swipebox custom styles
+  14. Containers
+  15. Typography
+  16. Buttons
+  17. Header
+  18. Navigation
+  19. Entry
+  20. Gallery
+  21. Widgets
+  22. Footer
+  23. Skins
+  24. Comments
+  25. Pagination
+  26. Zoom animation
+  27. No touchable devices
+  28. 404 page
+  29. Search
+  30. Wolf Page Builder
+  31. Wolf Twitter
+  32. Plugin Izotope filter
+  33. Wolf Albums
+  34. Wolf Videos
+  35. Wolf Tour Dates
+  36. Media queries
 */
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	1. Loader
+  1. Loader
 */
 #loading-overlay {
   width: 100%;
@@ -54,17 +54,17 @@
   z-index: 99999;
   display: table;
   /*#loader{
-  		position: absolute;
-  		width: 100%;
-  		height: 100%;
-  		top:50%;
-  		left: 50%;
-  		margin-top: -8px;
-  		margin-left: -8px;
-  		z-index:99999;
-  		display: none;
-  		font-size: 1.6rem;
-  	}*/
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top:50%;
+      left: 50%;
+      margin-top: -8px;
+      margin-left: -8px;
+      z-index:99999;
+      display: none;
+      font-size: 1.6rem;
+    }*/
 }
 #loading-overlay #loader {
   display: table-cell;
@@ -569,10 +569,10 @@
   }
 }
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	2. Custom fonts
+  2. Custom fonts
 */
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	3. Clearing
+  3. Clearing
 */
 /* border box everything */
 * {
@@ -601,7 +601,7 @@
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	4. Base
+  4. Base
 */
 html {
   height: 100%;
@@ -625,7 +625,7 @@ a {
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	5. Fluid videos
+  5. Fluid videos
 */
 /* Fluid video */
 .fluid-video {
@@ -650,7 +650,7 @@ a {
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	6. Video background
+  6. Video background
 */
 .video-bg-container {
   display: block;
@@ -703,7 +703,7 @@ a {
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	7. Forms
+  7. Forms
 */
 form {
   margin-top: 2rem;
@@ -917,7 +917,7 @@ input[type=submit]:active {
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	8. Helpers
+  8. Helpers
 */
 /* Text alignment */
 .text-center {
@@ -998,7 +998,7 @@ ul.inline-list li {
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	9. Medias
+  9. Medias
 */
 /* Responsive images */
 img {
@@ -1069,7 +1069,7 @@ canvas {
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	10. Tables
+  10. Tables
 */
 table {
   border-collapse: collapse;
@@ -1110,7 +1110,7 @@ td {
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	11. WordPress default classes
+  11. WordPress default classes
 */
 /* Images alignment */
 .alignleft a, .alignright a, .aligncenter a, .alignnone a {
@@ -1175,7 +1175,7 @@ img.wp-smiley,
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	12. Flexslider custom styles
+  12. Flexslider custom styles
 */
 /* Custom Flexslider Styles
 ---------------------------------------*/
@@ -1188,7 +1188,7 @@ img.wp-smiley,
   -webkit-box-shadow: none;
   box-shadow: none;
   /*a{
-  	border:none!important;
+    border:none!important;
   }*/
 }
 .flexslider img {
@@ -1308,7 +1308,7 @@ img.wp-smiley,
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	13. Swipebox custom styles
+  13. Swipebox custom styles
 */
 #swipebox-slider .slide-loading {
   background-image: url("../img/swipebox/loader-dark.gif") !important;
@@ -1358,7 +1358,7 @@ img.wp-smiley,
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	14. Containers
+  14. Containers
 */
 .site-container {
   position: relative;
@@ -1444,7 +1444,7 @@ img.wp-smiley,
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	15. Typography
+  15. Typography
 */
 h1, h2, h3, h4, h5,
 h2.entry-title,
@@ -1627,7 +1627,7 @@ dd {
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	16. Buttons
+  16. Buttons
 */
 .button,
 .wolf-button {
@@ -1677,7 +1677,7 @@ dd {
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	17. Header
+  17. Header
 */
 .site-header {
   color: #FFF;
@@ -1831,7 +1831,7 @@ a#scroll-down:before {
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	18. Navigation
+  18. Navigation
 */
 .nav-menu li a span.menu-item-inner,
 .nav-menu-mobile li a span.menu-item-inner {
@@ -1895,8 +1895,8 @@ a#scroll-down:before {
 }
 
 /*#navbar-container .wrap{
-	text-align: center;
-	max-width:1140px;
+  text-align: center;
+  max-width:1140px;
 }*/
 #navbar-left {
   float: left;
@@ -2256,7 +2256,7 @@ a.cart-menu-item-link:before {
   display: none;
   z-index: 99997;
   position: fixed;
-  top: 0;
+  top: 45px;
   left: 0;
   width: 100%;
   height: 50px;
@@ -2475,15 +2475,15 @@ a.cart-menu-item-link:before {
 -----------------------------------------------*/
 .nav-menu li.mega-menu {
   position: static;
-  	/*&.mega-menu-cols-2{
-  		ul.sub-menu{
-  			width: 50%;
+    /*&.mega-menu-cols-2{
+      ul.sub-menu{
+        width: 50%;
   
-  			li{
-  				width: 48%;
-  			}
-  		}
-  	}*/
+        li{
+          width: 48%;
+        }
+      }
+    }*/
 }
 .nav-menu li.mega-menu ul.sub-menu {
   position: absolute;
@@ -2513,9 +2513,9 @@ a.cart-menu-item-link:before {
   /*&.menu-item-has-children,
   &.page_item_has_children,
   &.active{
-  	&:before{
-  		display: none!important;
-  	}
+    &:before{
+      display: none!important;
+    }
   }*/
 }
 .nav-menu li.mega-menu ul.sub-menu li a {
@@ -2597,7 +2597,7 @@ a.cart-menu-item-link:before {
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	19. Entry
+  19. Entry
 */
 /* Entry title
 -----------------------------*/
@@ -3264,14 +3264,14 @@ a.cart-menu-item-link:before {
 }
 
 /*.bypostauthor .fn{
-	&:before{
-		display: inline-block;
-		font-family: 'dashicons';
-		content: "\f155";
-		margin-right: 0.8rem;
-		top: 3px;
-		position: relative;
-	}
+  &:before{
+    display: inline-block;
+    font-family: 'dashicons';
+    content: "\f155";
+    margin-right: 0.8rem;
+    top: 3px;
+    position: relative;
+  }
 }
 */
 .categories-links a:first-child:before {
@@ -3337,7 +3337,7 @@ a.cart-menu-item-link:before {
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	20. Gallery
+  20. Gallery
 */
 .entry-content .wolf-images-gallery {
   margin-bottom: 30px;
@@ -3489,7 +3489,7 @@ a.cart-menu-item-link:before {
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	21. Widgets
+  21. Widgets
 */
 .widget-title {
   border: none;
@@ -3599,7 +3599,7 @@ a.cart-menu-item-link:before {
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	22. Footer
+  22. Footer
 */
 /* Hide footer */
 .post-hide-footer .site-footer {
@@ -3647,7 +3647,7 @@ a.cart-menu-item-link:before {
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	23. Skins
+  23. Skins
 */
 body.wolf-page-builder {
   background: #333;
@@ -3735,7 +3735,7 @@ body.wolf-page-builder {
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	24. Comments
+  24. Comments
 */
 /*-----------------------------------------------------------------------------------*/
 /*  Wordpress comments
@@ -3915,7 +3915,7 @@ textarea#comment {
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	25. Pagination
+  25. Pagination
 */
 /* Pagination */
 .forum-pagination,
@@ -4247,7 +4247,7 @@ textarea#comment {
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	26. Zoom animation
+  26. Zoom animation
 */
 .zoom-bg {
   opacity: 0;
@@ -4337,7 +4337,7 @@ textarea#comment {
   }
 }
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	27. No touchable devices
+  27. No touchable devices
 */
 .no-touch .nav-menu li a span {
   -webkit-transition: opacity .2s;
@@ -4348,7 +4348,7 @@ textarea#comment {
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	28. 404 page
+  28. 404 page
 */
 body.error404 #masthead,
 body.error404 #colophon {
@@ -4379,7 +4379,7 @@ body.error404 #main article.post {
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	29. Search
+  29. Search
 */
 body.search .entry-content {
   margin-bottom: 30px;
@@ -4409,7 +4409,7 @@ body.search .more-link {
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	30. Wolf Page Builder
+  30. Wolf Page Builder
 */
 /* Icons */
 .wpb-icon-box.wpb-icon-type-circle .wpb-icon-no-custom-style.wpb-hover-fill-in:hover, .wpb-icon-box.wpb-icon-type-square .wpb-icon-no-custom-style.wpb-hover-fill-in:hover {
@@ -4458,7 +4458,7 @@ body.search .more-link {
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	31. Wolf Twitter
+  31. Wolf Twitter
 */
 /* Wolf Twitter */
 .wolf ul.wolf-tweet-list li:before {
@@ -4513,7 +4513,7 @@ body.search .more-link {
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	32. Plugins izotope filter
+  32. Plugins izotope filter
 */
 #videos-filter li a,
 #albums-filter li a {
@@ -4532,7 +4532,7 @@ body.search .more-link {
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	33. Wolf Albums
+  33. Wolf Albums
 */
 .albums span.album-item, .shortcode-gallery-grid span.album-item {
   background: #010101 !important;
@@ -4553,7 +4553,7 @@ body.search .more-link {
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	34. Wolf Videos
+  34. Wolf Videos
 */
 .wolf-videos .site-wrapper,
 .single-video .site-wrapper {
@@ -4567,7 +4567,7 @@ body.search .more-link {
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	35. Wolf Tour Dates
+  35. Wolf Tour Dates
 */
 .single-show .site-wrapper {
   width: 100%;
@@ -4678,7 +4678,7 @@ body.search .more-link {
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	36. Media queries
+  36. Media queries
 */
 @media screen and (max-width: 782px) {
   .admin-bar #navbar-container,

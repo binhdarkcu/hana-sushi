@@ -117,7 +117,94 @@
       </div>
       <!-- #navbar-mobile-container -->
       <div class="site-container">
-         
+         <div class="uk-clearfix uk-top">
+            <div class="uk-float-left">
+               <div class="hot-line uk-display-inline-block">
+                  <span class="label">Hotline</span>
+                  <strong>
+                  <a href="tel:090 754 6668 - 096 938 6611" class="uk-text-danger">
+                  090 754 6668 - 096 938 6611                            </a>
+                  </strong>
+               </div>
+            </div>
+            <div class="uk-float-right header-right">
+               <form id="search_mini_form" action="http://www.thuhuongbakery.com.vn/catalogsearch/result/" method="get" class="uk-display-inline-block">
+                  <div class="form-search uk-search">
+                     <input id="search" type="search" name="q" value="" class="input-text uk-search-field" placeholder="TÌM KIẾM" maxlength="128" autocomplete="off">
+                     <button type="submit" title="Tìm kiếm" class="uk-hidden">
+                        <!--<i class="uk-icon-search"></i>-->
+                     </button>
+                  </div>
+                  <div id="search_autocomplete" class="search-autocomplete uk-hidden-small" style="display: none;"></div>
+                  
+               </form>
+               <div class="account-cart-wrapper uk-display-inline-block">
+                  <a href="#" data-target-element="#header-account" class="skip-link skip-account">
+                     <span class="icon"></span>
+                     <span class="label">Tài khoản của tôi</span>
+                     <div class="close-icon uk-float-right uk-display-inline-block uk-invisible"></div>
+                  </a>
+               </div>
+               <!-- Cart -->
+               <div class="header-minicart uk-display-inline-block">
+                  <a href="http://www.thuhuongbakery.com.vn/checkout/cart/" data-target-element="#header-cart" class="uk-hidden-small skip-link skip-cart  no-count">
+                     <span class="icon"></span>
+                     <span class="label">Giỏ hàng</span>
+                     <span class="count">0</span>
+                     <div class="close-icon uk-float-right uk-display-inline-block uk-invisible"></div>
+                  </a>
+                  <div id="header-cart" class="block block-cart skip-content uk-hidden-small">
+                     <div class="minicart-wrapper">
+                        <div class="message-content">
+                           <div class="minicart-message minicart-error-message"></div>
+                           <div class="minicart-message minicart-success-message"></div>
+                        </div>
+                        <div class="empty">
+                           Bạn không có sản phẩm nào trong giỏ hàng.        
+                        </div>
+                        <div class="bottom-cart-phone">
+                           <div class="mini-header-phone uk-text-right">
+                              Hotline: <a class="mini-create-phone" href="tel:090 754 6668 - 096 938 6611">090 754 6668 - 096 938 6611</a>            
+                           </div>
+                           <a class="cart-link uk-display-block uk-text-center" href="http://www.thuhuongbakery.com.vn/checkout/cart/">
+                           Xem giỏ hàng            </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="header-account" class="skip-content ">
+            <div class="block block-login">
+                <form action="" method="post" id="mini-login-form" class="uk-form">
+                    <input name="form_key" type="hidden" value="dUa7fXW4g4kBiyxa">
+                    <div class="block-content">
+                        <div class="uk-form-row">
+                            <input type="text" name="login[username]" id="mini-login" class="input-text required-entry validate-email uk-width-1-1" placeholder="Địa chỉ email">
+                        </div>
+                        <div class="uk-form-row">
+                            <input type="password" name="login[password]" id="mini-password" class="input-text required-entry validate-password uk-width-1-1" placeholder="Mật khẩu">
+                        </div>
+                        <div class="actions uk-form-row">
+                            <button type="submit" class="button mini-login-button uk-button uk-width-1-1">
+                                Đăng nhập                </button>
+                        </div>
+                        <div class="uk-text-right uk-form-row">
+                            <a href="http://www.thuhuongbakery.com.vn/customer/account/forgotpassword/" class="mini-login-forgot">
+                                Quên mật khẩu?                </a>
+                        </div>
+                    </div>
+                </form>
+               
+            </div>
+            <div class="mini-create-account-block">
+                <div class="header-create-account">
+                    <a href="http://www.thuhuongbakery.com.vn/customer/account/create/" class="uk-button mini-create-account" title="Tạo tài khoản mới">
+                        Tạo tài khoản mới        </a>
+                    
+                </div>
+            </div>
+                                        </div>
          <div id="page" class="hfeed site pusher">
             <div id="page-content">
                <header id="masthead" class="site-header clearfix">
@@ -253,81 +340,270 @@
                                  </div>
                               </div>
                               <div class="wpb-row wpb-row-large-width">
-                                 <div class="left_col">
-                                 <!-- <div class="title">
-                                               </div> -->
-                                   <div class="menu1">
-                                   <img src="images/detail.jpg" width="325" class="imgs">
-                                       <div class="name_food">
-                                           SASHIMI            
-                                        </div>
-                                        <div class="list">
-                                           <ul>
-                                               <li>
-                                                   Sashimi (5 kinds) <span>001</span>
-                                               </li>
-                                               <li>
-                                                   Sashimi Special <span>002</span>
-                                               </li>
-                                                <li>
-                                                   Manguro Deluxe <span>003</span>
-                                               </li>
-                                                <li>
-                                                   Salmon Sashimi <span>004</span>
-                                               </li>
-                                                                   <li>
-                                                   Maguro Sashimi <span>005</span>
-                                               </li>
-                                                                   <li>
-                                                   Tako Sashimi <span>006</span>
-                                               </li>
-                                                                   <li>
-                                                   Toro Hamachi Sashimi <span>007</span>
-                                               </li>
-                                                                   <li>
-                                                   Taraba Kani Sashimi <span>008</span>
-                                               </li>
-                                                                   <li>
-                                                   Otoro Sashimi <span>009</span>
-                                               </li>
-                                                               </ul>
-                                          </div>
-                                          <a href="#" class="orderFood">Đặt món</a>
-                                       </div>
-                                    </div>
-                                    <div class="right_col">
-                                       <div class="news_event_right">
-                                          <div class="social">
-                                          <div class="title_">Hana sushi Facebook</div>
-                                          <a title="sushi Hokkaido sachi Facebook" href="http://www.facebook.com/hokkaidosushi">http://www.facebook.com/hokkaidosushi</a></div>
-                                          </div><div class="news_event_right">
-                                              <div class="news_event">
-                                                  <div class="title_">
-                                                     Các món ăn khác      
-                                                  </div>
-                                                          <div class="block_news">
-                                                      <a title="" href="#">
-                                                          <img title="" src="images/d-1.jpg" width="104" height="89"> 
-                                                      </a>
-                                                      <a title="Nhật Bản nới lỏng thị thực cho công dân Việt Nam" href="http://hokkaidosushi.com.vn/nhat-ban-noi-long-thi-thuc-cho-cong-dan-viet-nam-126.html">Sashimi Special</a>
-                                                  </div>
-                                                          <div class="block_news">
-                                                      <a title="Mekajiki Sashimi - Món Sashimi Cá kiếm đại dương tuyệt vời." href="http://hokkaidosushi.com.vn/mekajiki-sashimi-mon-sashimi-ca-kiem-dai-duong-tuyet-voi-124.html">
-                                                          <img title="Mekajiki Sashimi - Món Sashimi Cá kiếm đại dương tuyệt vời." alt="mekajiki sashimi mon sashimi ca kiem dai duong tuyet voi" src="http://hokkaidosushi.com.vn/images/info/104x89-info-mekajiki-sashimi-mon-sashimi-ca-kiem-dai-duong-tuyet-voi-124.info_thumb.jpg" width="104" height="89"> 
-                                                      </a>
-                                                      <a title="Mekajiki Sashimi - Món Sashimi Cá kiếm đại dương tuyệt vời." href="http://hokkaidosushi.com.vn/mekajiki-sashimi-mon-sashimi-ca-kiem-dai-duong-tuyet-voi-124.html">Salmon Sashimi vời.</a>
-                                                  </div>
-                                                          <div class="block_news">
-                                                      <a title="Cách làm bánh tiramisu trà xanh ngon" href="http://hokkaidosushi.com.vn/cach-lam-banh-tiramisu-tra-xanh-ngon-123.html">
-                                                          <img title="Cách làm bánh tiramisu trà xanh ngon" alt="cach lam banh tiramisu tra xanh ngon" src="http://hokkaidosushi.com.vn/images/info/104x89-info-cach-lam-banh-tiramisu-tra-xanh-ngon-123.info_thumb.jpg" width="104" height="89"> 
-                                                      </a>
-                                                      <a title="Cách làm bánh tiramisu trà xanh ngon" href="http://hokkaidosushi.com.vn/cach-lam-banh-tiramisu-tra-xanh-ngon-123.html">
-                                                   Tako Sashimi </a>
-                                                  </div>
-                                                      </div>
-                                          </div>
- 
+                                 <div class="uk-container uk-container-center uk-margin">
+                                         <div id="messages_product_view">
+                                             </div>
+
+                                     <div class="product-view">
+                                         <div class="uk-grid uk-grid-collapse" data-uk-grid-match="">
+                                             <div class="uk-width-medium-2-5" style="min-height: 979px;">
+                                                 <div class="product-img-box">
+                                                         <div class="product-image product-image-zoom">
+                                         <img id="image" src="images/detail.jpg" alt="Grean Tea Yule Gato" title="Grean Tea Yule Gato">    </div>
+                                                 </div>
+                                             </div>
+                                             <div class="uk-width-medium-3-5 product-content" style="min-height: 979px;">
+                                                 <div class="uk-panel-space">
+                                                     <div class="product-essential">
+                                                         <form action="" method="post" id="product_addtocart_form" class="uk-form">
+                                                             <input name="form_key" type="hidden" value="">
+                                                             <div class="uk-hidden">
+                                                                 <input type="hidden" name="product" value="712">
+                                                                 <input type="hidden" name="related_product" id="related-products-field" value="">
+                                                             </div>
+
+                                                             <div class="product-shop">
+                                                                 <div class="uk-clearfix">
+                                                                     <div class="uk-visible-small uk-text-right">
+                                                                             
+                                                                         
+                                                                     </div>
+                                                                     <div class="uk-grid">
+                                                                         <div class="uk-width-medium-5-5">
+                                                                             <div class="product-name">
+                                                                                 <h2>
+                                                                                     Bánh khúc củi Matcha                                                </h2>
+                                                                             </div>
+                                                                             <div class="product-sku uk-margin-bottom">
+                                                                                 Code:
+                                                                                 <span class="product-sku">
+                                                                                     YL-GT01                                                </span>
+                                                                             </div>
+                                                                             <div class="clear"></div>
+                                                                         </div>
+                                                                         
+                                                                     </div>
+                                                                 </div>
+
+                                                                 
+
+                                                         
+                                     <div class="price-box ">
+                                                                                                 <span class="regular-price" id="product-price-712">
+                                                                             <span class="price">220.000&nbsp;VNĐ</span>                                    </span>
+                                                                 
+                                     </div>
+
+                                                                 <span class="unit-of-measure price-unit uk-clearfix"> / Món</span>
+                                                                     <div class="description uk-margin-bottom">
+                                                                         <div class="std">Bánh có lớp kem ngoài không hề béo ngậy mà còn giữ nguyên hương thơm của matcha, lớp cuộn mềm mại, mượt mà , lớp kem bên trong và bên ngoài giữ nguyên vị chua của Sourcream khiến cho người ăn cảm giác không hề ngán mà còn rất kích thích vị giác. </div>
+                                                                     </div>
+                                                                 
+                                                                 
+                                                                 
+                                                                 
+                                                                 
+                                                                                                     <div class="add-to-box">
+                                                                                                                         <div class="add-to-cart uk-grid uk-grid-collapse">
+                                                     <div class="uk-width-large-4-10 uk-width-medium-1-2 uk-width-2-3 product-quantity">
+                                                 <label for="qty">
+                                                     Số lượng                </label>
+                                                 <input type="text" name="qty" id="qty" maxlength="12" value="1" title="SL" class="input-text qty uk-width-medium-1-4 uk-width-1-5 uk-text-center">
+                                                 <span class="unit-of-measure"> / Món</span>            </div>
+                                                 <button type="button" title="Bỏ vào giỏ hàng" id="product-addtocart-button" class="button btn-cart uk-button uk-width-large-6-10 uk-width-medium-1-2 uk-width-1-3 uk-position-relative" onclick="productAddToCartForm.submit(this)">
+                                             <i class="icon uk-display-inline-block"></i>
+                                         </button>
+                                             </div>
+                                             </div>
+                                                                                                     
+                                                                 
+                             <div class="uk-margin-top product-detail-block uk-margin-large-bottom">
+                                 <div class="product-collateral accordion-tabs tabs product-detail-tab" data-uk-grid-match="">
+                                    <ul class="toggle-tabs uk-list" data-uk-grid-match="{target:'li'}"><li class="uk-width-1-3 current" style="min-height: 77px;"><span class="online-order-icon">ĐẶT HÀNG TRỰC TUYẾN</span></li><li class="uk-width-1-3" style="min-height: 77px;"><span class="custom-order-icon">ĐƠN ĐẶT HÀNG ĐẶC BIỆT</span></li><li class="uk-width-1-3 last" style="min-height: 77px;"><span class="free-delivery-icon">MIỄN PHÍ GIAO HÀNG</span></li></ul>
+                                    <div class="clear"></div>
+                                 <dl id="collateral-tabs" class="collateral-tabs uk-margin-remove"><dt class="tab online-order current"><span class="online-order-icon">ĐẶT HÀNG TRỰC TUYẾN</span></dt><dd class="tab-container current">
+                                 <div class="tab-content">
+                                 <p>Đơn đặt hàng trực tuyến phải có tổng giá trị trên <strong>100,000 vnd</strong>.</p>
+                                 <p>Để biết thêm thông tin đặt hàng trực tuyến, vui lòng xem <a title="Điều khoản và điều kiện" href="http://www.thuhuongbakery.com.vn/terms-and-conditions" target="_blank">Điền Khoản và Điều Kiện</a></p>
+                                 <p>Sản phẩm hiện không có sẵn để đặt hàng online, bạn vui lòng qua cửa hàng mua bánh hoặc gọi đến hotline &nbsp;090 754 6668 - 096 938 6611 để biết thêm thông tin</p>
                                  </div>
+                                 </dd><dt class="tab custom-order"><span class="custom-order-icon">ĐƠN ĐẶT HÀNG ĐẶC BIỆT</span></dt><dd class="tab-container">
+                                 <div class="tab-content uk-text-center">
+                                 <p>Để đặt các loại bánh không có trên trang web, xin vui lòng liên hệ&nbsp;090 754 6668 - 096 938 6611</p>
+                                 </div>
+                                 </dd><dt class="tab last free-delivery"><span class="free-delivery-icon">MIỄN PHÍ GIAO HÀNG</span></dt><dd class="tab-container last free-delivery">
+                                 <div class="tab-content">
+                                 <p>Chỉ giao hàng trong Hà Nội</p>
+                                 <p>(Giao hàng trong phạm vi 10km từ một trong các cửa hàng của chúng tôi, xin đọc <a title="Điều khoản giao hàng" href="http://www.thuhuongbakery.com.vn/delivery-details">Điều khoản giao hàng</a>)</p>
+                                 </div>
+                                 </dd></dl></div>                                </div>
+
+                                                                 <div class="uk-margin">
+                                                                     <!-- Check whether the plugin is enabled -->
+
+                                 <!-- AddThis Button BEGIN -->
+
+                                 <!-- AddThis API Config -->
+                                 <script type="text/javascript">
+                                 var addthis_product = 'mag-sp-2.0.0';
+                                 var addthis_config   = {
+                                 pubid : 'xa-525fbbd6215b4f1a'
+                                 }
+                                 </script>
+                                 <!-- AddThis API Config END -->
+                                 <div class="addthis_toolbox addthis_default_style">
+                                         <a class="addthis_button_tweet at300b"><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" title="Twitter Tweet Button" src="http://platform.twitter.com/widgets/tweet_button.fd774b599f565016d763dd860cb31c79.vi.html#dnt=false&amp;id=twitter-widget-0&amp;lang=vi&amp;original_referer=http%3A%2F%2Fwww.thuhuongbakery.com.vn%2Fchefs-thu-huong%2Fsan-pham-moi%2Fbanh-khuc-cui-matcha.html&amp;size=m&amp;text=Thu%20Huong%20Bakery%20B%C3%A1nh%20kh%C3%BAc%20c%E1%BB%A7i%20Matcha%3A&amp;time=1460647596105&amp;type=share&amp;url=http%3A%2F%2Fwww.thuhuongbakery.com.vn%2Fchefs-thu-huong%2Fsan-pham-moi%2Fbanh-khuc-cui-matcha.html%23.Vw-2o6XmFDw.twitter" style="position: static; visibility: visible; width: 61px; height: 20px;" data-url="http://www.thuhuongbakery.com.vn/chefs-thu-huong/san-pham-moi/banh-khuc-cui-matcha.html#.Vw-2o6XmFDw.twitter"></iframe></a>
+                                    <a class="addthis_button_facebook_like  at300b"><div class="fb-like fb_iframe_widget" data-ref=".Vw-2o63XpcA.like" data-layout="button_count" data-show_faces="false" data-share="false" data-action="like" data-width="90" data-font="arial" data-href="http://www.thuhuongbakery.com.vn/chefs-thu-huong/san-pham-moi/banh-khuc-cui-matcha.html" data-send="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=172525162793917&amp;container_width=0&amp;font=arial&amp;href=http%3A%2F%2Fwww.thuhuongbakery.com.vn%2Fchefs-thu-huong%2Fsan-pham-moi%2Fbanh-khuc-cui-matcha.html&amp;layout=button_count&amp;locale=vi_VN&amp;ref=.Vw-2o63XpcA.like&amp;sdk=joey&amp;send=false&amp;share=false&amp;show_faces=false&amp;width=90"><span style="vertical-align: bottom; width: 86px; height: 20px;"><iframe name="f2e9e452551f544" width="90px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like Facebook Social Plugin" src="http://www.facebook.com/plugins/like.php?action=like&amp;app_id=172525162793917&amp;channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df2ec82296622c6c%26domain%3Dwww.thuhuongbakery.com.vn%26origin%3Dhttp%253A%252F%252Fwww.thuhuongbakery.com.vn%252Ff10de7998e9e4a4%26relation%3Dparent.parent&amp;container_width=0&amp;font=arial&amp;href=http%3A%2F%2Fwww.thuhuongbakery.com.vn%2Fchefs-thu-huong%2Fsan-pham-moi%2Fbanh-khuc-cui-matcha.html&amp;layout=button_count&amp;locale=vi_VN&amp;ref=.Vw-2o63XpcA.like&amp;sdk=joey&amp;send=false&amp;share=false&amp;show_faces=false&amp;width=90" style="border: none; visibility: visible; width: 86px; height: 20px;" class=""></iframe></span></div></a>
+                                         <a class="addthis_button_pinterest_pinit  at300b"><span class="at_PinItButton"></span></a>
+                                         <a class="addthis_button_google_plusone  at300b" g:plusone:size="medium"><div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 90px; height: 20px; background: transparent;"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 90px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" tabindex="0" vspace="0" width="100%" id="I0_1460647588255" name="I0_1460647588255" src="https://apis.google.com/u/0/se/0/_/+1/fastbutton?usegapi=1&amp;size=medium&amp;hl=en-US&amp;origin=http%3A%2F%2Fwww.thuhuongbakery.com.vn&amp;url=http%3A%2F%2Fwww.thuhuongbakery.com.vn%2Fchefs-thu-huong%2Fsan-pham-moi%2Fbanh-khuc-cui-matcha.html&amp;gsrc=3p&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en.sB8E5NJ_eLs.O%2Fm%3D__features__%2Fam%3DAQ%2Frt%3Dj%2Fd%3D1%2Frs%3DAGLTcCOVjod4lvOV6JQ1QFKyK9l1Dzn_Dg#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh&amp;id=I0_1460647588255&amp;parent=http%3A%2F%2Fwww.thuhuongbakery.com.vn&amp;pfname=&amp;rpctoken=16231557" data-gapiattached="true" title="+1"></iframe></div></a>
+                                         <a class="addthis_counter addthis_pill_style" href="#" style="display: inline-block;"></a><a class="atc_s addthis_button_compact"><span></span></a><a class="addthis_button_expanded" target="_blank" title="Thêm..." href="#"></a>
+                                 <div class="atclear"></div></div>
+                                 <script>
+                                    var ats_widget =  function(){
+                                        if(typeof addthis_conf == 'undefined'){
+                                            var at_script = document.createElement('script');
+                                            at_script.src = '//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-525fbbd6215b4f1a';
+                                            document.getElementsByTagName('head')[0].appendChild(at_script);
+                                            var addthis_product = 'mag-sp-2.1.0';
+                                        }
+                                    };
+                                    if(window.addEventListener)
+                                       window.addEventListener('load',ats_widget);        
+                                    else                
+                                       window.attachEvent('onload',ats_widget);                  
+                                 </script>       
+                                 <!-- AddThis Button END -->
+                                 <style>
+                                 #at3win #at3winheader h3 {
+                                    text-align:left !important;
+                                 }
+                                 </style>
+                                                                 </div>
+
+                                                             </div>
+
+                                                             <div class="clearer"></div>
+                                                                                     </form>
+                                                         <script type="text/javascript">
+                                                             //<![CDATA[
+                                                             var productAddToCartForm = new VarienForm('product_addtocart_form');
+                                                             productAddToCartForm.submit = function (button, url) {
+                                                                 if (this.validator.validate()) {
+                                                                     var form = this.form;
+                                                                     var oldUrl = form.action;
+
+                                                                     if (url) {
+                                                                         form.action = url;
+                                                                     }
+                                                                     var e = null;
+                                                                     try {
+                                                                         this.form.submit();
+                                                                     } catch (e) {
+                                                                     }
+                                                                     this.form.action = oldUrl;
+                                                                     if (e) {
+                                                                         throw e;
+                                                                     }
+
+                                                                     if (button && button != 'undefined') {
+                                                                         button.disabled = true;
+                                                                     }
+                                                                 }
+                                                             }.bind(productAddToCartForm);
+
+                                                             productAddToCartForm.submitLight = function (button, url) {
+                                                                 if (this.validator) {
+                                                                     var nv = Validation.methods;
+                                                                     delete Validation.methods['required-entry'];
+                                                                     delete Validation.methods['validate-one-required'];
+                                                                     delete Validation.methods['validate-one-required-by-name'];
+                                                                     // Remove custom datetime validators
+                                                                     for (var methodName in Validation.methods) {
+                                                                         if (methodName.match(/^validate-datetime-.*/i)) {
+                                                                             delete Validation.methods[methodName];
+                                                                         }
+                                                                     }
+
+                                                                     if (this.validator.validate()) {
+                                                                         if (url) {
+                                                                             this.form.action = url;
+                                                                         }
+                                                                         this.form.submit();
+                                                                     }
+                                                                     Object.extend(Validation.methods, nv);
+                                                                 }
+                                                             }.bind(productAddToCartForm);
+                                                             //]]>
+                                                         </script>
+                                                     </div>
+                                                     <div class="product-collateral">
+                                                                                 </div>
+                                                     <div class="product-categories">
+                                                          Danh Mục:
+                                                         <a href="http://www.thuhuongbakery.com.vn/chefs-thu-huong.html">Chef's Thu Huong</a>, <a href="http://www.thuhuongbakery.com.vn/chefs-thu-huong/san-pham-moi.html">Sản phẩm mới</a>, <a href="http://www.thuhuongbakery.com.vn/chefs-thu-huong/giang-sinh.html">Giáng sinh</a>, <a href="http://www.thuhuongbakery.com.vn/gato.html">Gato</a>, <a href="http://www.thuhuongbakery.com.vn/gato/banh-dac-biet.html">Bánh đặc biệt</a>, <a href="http://www.thuhuongbakery.com.vn/gato/banh-dac-biet/sour-cream-gato.html">Sour Cream</a>                    </div>
+                                                     <div id="reviews" class="product-review uk-margin-top">
+                                                         
+                                 <div class="box-collateral box-reviews" id="customer-reviews">
+                                         <div class="form-add">
+                                             <!--<p class="review-nologged" id="review-form">-->
+                                                 <!--</p>-->
+                                         <div class="account-login">
+                                                 <p class="uk-text-center uk-margin-top">
+                                         Bạn phải đăng nhập dể nhận xét sản phẩm    </p>
+
+                                     
+                                     <form action="http://www.thuhuongbakery.com.vn/customer/account/loginPost/" method="post" id="login-form" class="uk-form">
+                                         <input name="form_key" type="hidden" value="dUa7fXW4g4kBiyxa">
+                                         <div class="uk-grid uk-grid-collapse">
+                                             <div class="uk-width-medium-2-5 new-users">
+                                                 <div class="buttons-set">
+                                                     <button type="button" title="Tạo tài khoản mới" class="button uk-button uk-width-1-1" onclick="window.location='http://www.thuhuongbakery.com.vn/customer/account/create/';">
+                                                         Tạo tài khoản                    </button>
+                                                 </div>
+                                             </div>
+                                             <div class="uk-width-medium-1-5 uk-text-center review-login-or">
+                                                 HOẶC            </div>
+                                             <div class="uk-width-medium-2-5 registered-users">
+                                                 <div class="content">
+                                                     <ul class="form-list uk-list">
+                                                         <li class="uk-form-row">
+                                                             <div class="input-box">
+                                                                 <input type="text" name="login[username]" value="" id="email" class="input-text required-entry validate-email uk-width-1-1" title="Địa chỉ email" placeholder="Địa chỉ email:">
+                                                             </div>
+                                                         </li>
+                                                         <li class="uk-form-row">
+                                                             <div class="input-box">
+                                                                 <input type="password" name="login[password]" class="input-text required-entry validate-password uk-width-1-1" id="pass" title="Mật khẩu" placeholder="Mật khẩu:">
+                                                             </div>
+                                                         </li>
+                                                                                 <li class="uk-form-row">
+                                                             <button type="submit" class="button uk-button uk-width-1-1" title="Đăng nhập" name="send" id="send2">
+                                                                 Đăng nhập                            </button>
+                                                         </li>
+                                                         <li class="uk-form-row uk-text-center">
+                                                             <a href="http://www.thuhuongbakery.com.vn/customer/account/forgotpassword/" class="review-login-forgot">
+                                                                 Quên mật khẩu                            </a>
+                                                         </li>
+                                                     </ul>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                     </form>
+                                     <script type="text/javascript">
+                                         //<![CDATA[
+                                         var dataForm = new VarienForm('login-form', true);
+                                         //]]>
+                                     </script>
+                                 </div>
+                                     </div>
+                                 </div>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </div>
+                                    
                                  <div class="clear"></div>
                               </div>
                               
