@@ -97,6 +97,7 @@ h2.h2title{
 	font-size: 48px;
 	font-family: "lobsterregular";
 	text-align: center;
+	
 }
 .intro-block{
 	background: #ffbd3d;
@@ -330,7 +331,10 @@ h2.h2title{
 
 .productDetail{
 	background: #fff;
-	padding-top: 50px;
+	
+}
+.productDetail .orderBox{
+	margin-bottom: 50px;
 }
 .nav-menu li a span.menu-item-inner, .nav-menu-mobile li a span.menu-item-inner{
 	font-family: 'Roboto', sans-serif;
@@ -409,7 +413,6 @@ a.orderFood{
     width: 100%;
 }
 .right_col .news_event_right .news_event .block_news{
-	width: 50%;
 	float: left;
 }
 .breakpoint .nav-menu-mobile li.button-style a{
