@@ -964,3 +964,63 @@ color: #ffbd3d;
 .product-view .product-review .box-reviews .account-login #login-form .review-login-or{
 	    margin-top: 10px;
 }
+.uk-breadcrumb > li, .uk-breadcrumb > li > a, .uk-breadcrumb > li > span {
+    display: inline-block;
+}
+.uk-breadcrumb{
+	padding-bottom: 25px;
+}
+.uk-breadcrumb > li a {
+    color: #999;
+}
+.uk-breadcrumb > li.uk-active span{
+	color: #ffbd3d;
+}
+.uk-breadcrumb > li:nth-child(n+2):before {
+    content: "/";
+    display: inline-block;
+    margin: 0 8px;
+}
+.product-collateral > dl > dd.current .tab-content{
+
+}
+.product-collateral > dl > dd.current {
+    display: block;
+    background-color: #ddd;
+    padding: 10px;
+}
+.product-collateral > dl > dd.current .tab-content {
+    padding: 25px 12px 19px;
+}
+.account-create-page .legend {
+    color: #ffbd3d;
+    padding-bottom: 10px;
+}
+.account-create-page .fieldset{
+	display: block;
+    clear: both;
+    margin-top: 25px;
+}
+p.required {
+    font-size: 11px;
+    color: #f15c22;
+    padding: 10px 0;
+}
+.account-create-page .bottom-button .back-link {
+    padding-top: 5px;
+   	margin-right: 10px;
+}
+.uk-float-left {
+    float: left;
+}
+.account-create-page button[type="submit"]{
+	background: #ffbd3d;
+	border-color: #ffbd3d;
+	padding: 7px 15px;
+	margin-left: 4px;
+
+}
+.h50{
+	padding: 50px 0;
+	display: block;
+}

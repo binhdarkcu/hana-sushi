@@ -347,291 +347,141 @@
                                                                           <a href="http://www.thuhuongbakery.com.vn/" title="Đến trang chủ">
                                                           Trang chủ                        </a>
                                                                   </li>
-                                                          
-                                                          <li class="category5">
-                                                                          <a href="http://www.thuhuongbakery.com.vn/chefs-thu-huong/san-pham-moi.html" title="">
-                                                          Sushi set                        </a>
-                                                                  </li>
                                                           <li class="product uk-active">
-                                                                          <span>Bánh khúc củi Matcha</span>
+                                                                          <span>Đăng ký</span>
                                                                   </li>
                                                   </ul>
                                   </div>
                               </div>
 
                                  <div class="uk-container uk-container-center uk-margin">
-                                         <div id="messages_product_view">
-                                             </div>
+                                         <div class="account-create-page page-content-container">
+                                                         <form action="http://www.thuhuongbakery.com.vn/customer/account/createpost/" method="post" id="form-validate" class="uk-form">
+                                             <div class="fieldset">
+                                                 <input type="hidden" name="success_url" value="">
+                                                 <input type="hidden" name="error_url" value="">
 
-                                     <div class="product-view">
-                                         <div class="uk-grid uk-grid-collapse" data-uk-grid-match="">
-                                             <div class="uk-width-medium-2-5" style="min-height: 979px;">
-                                                 <div class="product-img-box">
-                                                         <div class="product-image product-image-zoom">
-                                         <img id="image" src="images/detail.jpg" alt="Grean Tea Yule Gato" title="Grean Tea Yule Gato">    </div>
-                                                 </div>
-                                             </div>
-                                             <div class="uk-width-medium-3-5 product-content" style="min-height: 979px;">
-                                                 <div class="uk-panel-space">
-                                                     <div class="product-essential">
-                                                         <form action="" method="post" id="product_addtocart_form" class="uk-form">
-                                                             <input name="form_key" type="hidden" value="">
-                                                             <div class="uk-hidden">
-                                                                 <input type="hidden" name="product" value="712">
-                                                                 <input type="hidden" name="related_product" id="related-products-field" value="">
-                                                             </div>
-
-                                                             <div class="product-shop">
-                                                                 <div class="uk-clearfix">
-                                                                     <div class="uk-visible-small uk-text-right">
-                                                                             
-                                                                         
-                                                                     </div>
-                                                                     <div class="uk-grid">
-                                                                         <div class="uk-width-medium-5-5">
-                                                                             <div class="product-name">
-                                                                                 <h2>
-                                                                                     Bánh khúc củi Matcha                                                </h2>
-                                                                             </div>
-                                                                             <div class="product-sku uk-margin-bottom">
-                                                                                 Code:
-                                                                                 <span class="product-sku">
-                                                                                     YL-GT01                                                </span>
-                                                                             </div>
-                                                                             <div class="clear"></div>
-                                                                         </div>
-                                                                         
-                                                                     </div>
+                                                 <div class="legend uk-h3">
+                                                     Thông tin cá nhân                </div>
+                                                 <ul class="form-list uk-list">
+                                                     <li class="fields uk-form-row">
+                                                         <div class="customer-name uk-form-row">
+                                                             <div class="field name-firstname uk-form-row">
+                                                                 <label for="firstname" class="required uk-form-label">
+                                                                     Họ và tên<em>*</em>
+                                                                 </label>
+                                                                 <div class="input-box uk-form-controls">
+                                                                     <input type="text" id="firstname" name="firstname" value="" title="Họ và tên" maxlength="255" class="input-text uk-width-large-1-2 required-entry">
                                                                  </div>
+                                                             </div>
+                                                             <!--<div class="field name-lastname uk-form-row">
+                                                                 <label for="lastname" class="required uk-form-label">
+                                                                     Tên<em>*</em>
+                                                                 </label>
+                                                                 <div class="input-box uk-form-controls">
+                                                                     <input type="text" id="lastname" name="lastname"
+                                                                            value=""
+                                                                            title="Tên" maxlength="255"
+                                                                            class="input-text uk-width-large-1-2 "  />
+                                                                 </div>
+                                                             </div>-->
+                                                         </div>
+                                                     </li>
+                                                     <li class="uk-form-row">
+                                                         <label for="email_address" class="required">
+                                                             Địa chỉ email<em>*</em>
+                                                         </label>
 
-                                                                 
+                                                         <div class="input-box">
+                                                             <input type="text" name="email" id="email_address" value="" title="Địa chỉ email" class="input-text validate-email required-entry uk-width-medium-1-5">
+                                                         </div>
+                                                     </li>
+                                                  </ul>
+                                                  <div class="clear"></div> 
+                                                   </div>
+                                                         <div class="fieldset">
+                                                                   <div class="legend uk-h3">Thông tin đăng nhập</div>
+                                                                   <ul class="form-list uk-list login-password">
+                                                                       <li class="field uk-form-row">
+                                                                           <label for="password" class="required">
+                                                                               Mật khẩu<em>*</em>
+                                                                           </label>
 
-                                                         
-                                     <div class="price-box ">
-                                                                                                 <span class="regular-price" id="product-price-712">
-                                                                             <span class="price">220.000&nbsp;VNĐ</span>                                    </span>
-                                                                 
-                                     </div>
+                                                                           <div class="input-box">
+                                                                               <input type="password" name="password" id="password" title="Mật khẩu" class="input-text required-entry validate-password">
+                                                                           </div>
+                                                                       </li>
+                                                                       <li class="field uk-form-row password-confirm">
+                                                                           <label for="confirmation" class="required">
+                                                                               Xác nhận mật khẩu<em>*</em>
+                                                                           </label>
 
-                                                                 <span class="unit-of-measure price-unit uk-clearfix"> / Món</span>
-                                                                     <div class="description uk-margin-bottom">
-                                                                         <div class="std">Bánh có lớp kem ngoài không hề béo ngậy mà còn giữ nguyên hương thơm của matcha, lớp cuộn mềm mại, mượt mà , lớp kem bên trong và bên ngoài giữ nguyên vị chua của Sourcream khiến cho người ăn cảm giác không hề ngán mà còn rất kích thích vị giác. </div>
-                                                                     </div>
-                                                                 
-                                                                 
-                                                                 
-                                                                 
-                                                                 
-                                                                                                     <div class="add-to-box">
-                                                                                                                         <div class="add-to-cart uk-grid uk-grid-collapse">
-                                                     <div class="uk-width-large-4-10 uk-width-medium-1-2 uk-width-2-3 product-quantity">
-                                                 <label for="qty">
-                                                     Số lượng                </label>
-                                                 <input type="text" name="qty" id="qty" maxlength="12" value="1" title="SL" class="input-text qty uk-width-medium-1-4 uk-width-1-5 uk-text-center">
-                                                 <span class="unit-of-measure"> / Món</span>            </div>
-                                                 <button type="button" title="Bỏ vào giỏ hàng" id="product-addtocart-button" class="button btn-cart uk-button uk-width-large-6-10 uk-width-medium-1-2 uk-width-1-3 uk-position-relative" onclick="productAddToCartForm.submit(this)">
-                                             <i class="icon uk-display-inline-block"></i>
-                                         </button>
-                                             </div>
-                                             </div>
-                                                                                                     
-                                                                 
-                             <div class="uk-margin-top product-detail-block uk-margin-large-bottom">
-                                 <div class="product-collateral accordion-tabs tabs product-detail-tab" data-uk-grid-match="">
-                                    <ul class="toggle-tabs uk-list" data-uk-grid-match="{target:'li'}"></ul>
-                                    <div class="clear"></div>
-                                 <dl id="collateral-tabs" class="collateral-tabs uk-margin-remove"><dt class="tab online-order current"><span class="online-order-icon">ĐẶT HÀNG TRỰC TUYẾN</span></dt><dd class="tab-container current">
-                                 <div class="tab-content">
-                                 <p>Đơn đặt hàng trực tuyến phải có tổng giá trị trên <strong>100,000 vnd</strong>.</p>
-                                 <p>Để biết thêm thông tin đặt hàng trực tuyến, vui lòng xem <a title="Điều khoản và điều kiện" href="http://www.thuhuongbakery.com.vn/terms-and-conditions" target="_blank">Điền Khoản và Điều Kiện</a></p>
-                                 <p>Sản phẩm hiện không có sẵn để đặt hàng online, bạn vui lòng qua cửa hàng mua bánh hoặc gọi đến hotline &nbsp;090 754 6668 - 096 938 6611 để biết thêm thông tin</p>
-                                 </div>
-                                 </dd><dt class="tab custom-order"><span class="custom-order-icon">ĐƠN ĐẶT HÀNG ĐẶC BIỆT</span></dt><dd class="tab-container">
-                                 <div class="tab-content uk-text-center">
-                                 <p>Để đặt các loại bánh không có trên trang web, xin vui lòng liên hệ&nbsp;090 754 6668 - 096 938 6611</p>
-                                 </div>
-                                 </dd><dt class="tab last free-delivery"><span class="free-delivery-icon">MIỄN PHÍ GIAO HÀNG</span></dt><dd class="tab-container last free-delivery">
-                                 <div class="tab-content">
-                                 <p>Chỉ giao hàng trong Hà Nội</p>
-                                 <p>(Giao hàng trong phạm vi 10km từ một trong các cửa hàng của chúng tôi, xin đọc <a title="Điều khoản giao hàng" href="http://www.thuhuongbakery.com.vn/delivery-details">Điều khoản giao hàng</a>)</p>
-                                 </div>
-                                 </dd></dl></div>                                </div>
+                                                                           <div class="input-box">
+                                                                               <input type="password" name="confirmation" title="Xác nhận mật khẩu" id="confirmation" class="input-text required-entry validate-cpassword">
+                                                                           </div>
+                                                                                               </li>
+                                                                       <li id="remember-me-box" class="control uk-form-row">
+                                                               <input type="checkbox" name="persistent_remember_me" class="checkbox" id="remember_meLq31ivII7E" title="Ghi nhớ mật khẩu">
+                                                           <label for="remember_meLq31ivII7E">Ghi nhớ mật khẩu</label>
 
-                                                                 <div class="uk-margin">
-                                                                     <!-- Check whether the plugin is enabled -->
+                                                   </li>
+                                                 </ul>
+                                                 
 
-                                 <!-- AddThis Button BEGIN -->
-
-                                 <!-- AddThis API Config -->
                                  <script type="text/javascript">
-                                 var addthis_product = 'mag-sp-2.0.0';
-                                 var addthis_config   = {
-                                 pubid : 'xa-525fbbd6215b4f1a'
-                                 }
+                                 //<![CDATA[
+                                     function toggleRememberMepopup(event){
+                                         if($('remember-me-popup')){
+                                             var viewportHeight = document.viewport.getHeight(),
+                                                 docHeight      = $$('body')[0].getHeight(),
+                                                 height         = docHeight > viewportHeight ? docHeight : viewportHeight;
+                                             $('remember-me-popup').toggle();
+                                             $('window-overlay').setStyle({ height: height + 'px' }).toggle();
+                                         }
+                                         Event.stop(event);
+                                     }
+
+                                     document.observe("dom:loaded", function() {
+                                         new Insertion.Bottom($$('body')[0], $('window-overlay'));
+                                         new Insertion.Bottom($$('body')[0], $('remember-me-popup'));
+
+                                         $$('.remember-me-popup-close').each(function(element){
+                                             Event.observe(element, 'click', toggleRememberMepopup);
+                                         })
+                                         $$('#remember-me-box a').each(function(element) {
+                                             Event.observe(element, 'click', toggleRememberMepopup);
+                                         });
+                                     });
+                                 //]]>
                                  </script>
-                                 <!-- AddThis API Config END -->
-                                 <div class="addthis_toolbox addthis_default_style">
-                                         <a class="addthis_button_tweet at300b"><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" title="Twitter Tweet Button" src="http://platform.twitter.com/widgets/tweet_button.fd774b599f565016d763dd860cb31c79.vi.html#dnt=false&amp;id=twitter-widget-0&amp;lang=vi&amp;original_referer=http%3A%2F%2Fwww.thuhuongbakery.com.vn%2Fchefs-thu-huong%2Fsan-pham-moi%2Fbanh-khuc-cui-matcha.html&amp;size=m&amp;text=Thu%20Huong%20Bakery%20B%C3%A1nh%20kh%C3%BAc%20c%E1%BB%A7i%20Matcha%3A&amp;time=1460647596105&amp;type=share&amp;url=http%3A%2F%2Fwww.thuhuongbakery.com.vn%2Fchefs-thu-huong%2Fsan-pham-moi%2Fbanh-khuc-cui-matcha.html%23.Vw-2o6XmFDw.twitter" style="position: static; visibility: visible; width: 61px; height: 20px;" data-url="http://www.thuhuongbakery.com.vn/chefs-thu-huong/san-pham-moi/banh-khuc-cui-matcha.html#.Vw-2o6XmFDw.twitter"></iframe></a>
-                                    <a class="addthis_button_facebook_like  at300b"><div class="fb-like fb_iframe_widget" data-ref=".Vw-2o63XpcA.like" data-layout="button_count" data-show_faces="false" data-share="false" data-action="like" data-width="90" data-font="arial" data-href="http://www.thuhuongbakery.com.vn/chefs-thu-huong/san-pham-moi/banh-khuc-cui-matcha.html" data-send="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=172525162793917&amp;container_width=0&amp;font=arial&amp;href=http%3A%2F%2Fwww.thuhuongbakery.com.vn%2Fchefs-thu-huong%2Fsan-pham-moi%2Fbanh-khuc-cui-matcha.html&amp;layout=button_count&amp;locale=vi_VN&amp;ref=.Vw-2o63XpcA.like&amp;sdk=joey&amp;send=false&amp;share=false&amp;show_faces=false&amp;width=90"><span style="vertical-align: bottom; width: 86px; height: 20px;"><iframe name="f2e9e452551f544" width="90px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like Facebook Social Plugin" src="http://www.facebook.com/plugins/like.php?action=like&amp;app_id=172525162793917&amp;channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df2ec82296622c6c%26domain%3Dwww.thuhuongbakery.com.vn%26origin%3Dhttp%253A%252F%252Fwww.thuhuongbakery.com.vn%252Ff10de7998e9e4a4%26relation%3Dparent.parent&amp;container_width=0&amp;font=arial&amp;href=http%3A%2F%2Fwww.thuhuongbakery.com.vn%2Fchefs-thu-huong%2Fsan-pham-moi%2Fbanh-khuc-cui-matcha.html&amp;layout=button_count&amp;locale=vi_VN&amp;ref=.Vw-2o63XpcA.like&amp;sdk=joey&amp;send=false&amp;share=false&amp;show_faces=false&amp;width=90" style="border: none; visibility: visible; width: 86px; height: 20px;" class=""></iframe></span></div></a>
-                                         <a class="addthis_button_pinterest_pinit  at300b"><span class="at_PinItButton"></span></a>
-                                         <a class="addthis_button_google_plusone  at300b" g:plusone:size="medium"><div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 90px; height: 20px; background: transparent;"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 90px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" tabindex="0" vspace="0" width="100%" id="I0_1460647588255" name="I0_1460647588255" src="https://apis.google.com/u/0/se/0/_/+1/fastbutton?usegapi=1&amp;size=medium&amp;hl=en-US&amp;origin=http%3A%2F%2Fwww.thuhuongbakery.com.vn&amp;url=http%3A%2F%2Fwww.thuhuongbakery.com.vn%2Fchefs-thu-huong%2Fsan-pham-moi%2Fbanh-khuc-cui-matcha.html&amp;gsrc=3p&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en.sB8E5NJ_eLs.O%2Fm%3D__features__%2Fam%3DAQ%2Frt%3Dj%2Fd%3D1%2Frs%3DAGLTcCOVjod4lvOV6JQ1QFKyK9l1Dzn_Dg#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh&amp;id=I0_1460647588255&amp;parent=http%3A%2F%2Fwww.thuhuongbakery.com.vn&amp;pfname=&amp;rpctoken=16231557" data-gapiattached="true" title="+1"></iframe></div></a>
-                                         <a class="addthis_counter addthis_pill_style" href="#" style="display: inline-block;"></a><a class="atc_s addthis_button_compact"><span></span></a><a class="addthis_button_expanded" target="_blank" title="Thêm..." href="#"></a>
-                                 <div class="atclear"></div></div>
-                                 <script>
-                                    var ats_widget =  function(){
-                                        if(typeof addthis_conf == 'undefined'){
-                                            var at_script = document.createElement('script');
-                                            at_script.src = '//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-525fbbd6215b4f1a';
-                                            document.getElementsByTagName('head')[0].appendChild(at_script);
-                                            var addthis_product = 'mag-sp-2.1.0';
-                                        }
-                                    };
-                                    if(window.addEventListener)
-                                       window.addEventListener('load',ats_widget);        
-                                    else                
-                                       window.attachEvent('onload',ats_widget);                  
-                                 </script>       
-                                 <!-- AddThis Button END -->
-                                 <style>
-                                 #at3win #at3winheader h3 {
-                                    text-align:left !important;
-                                 }
-                                 </style>
-                                                                 </div>
-
-                                                             </div>
-
-                                                             <div class="clearer"></div>
-                                                                                     </form>
-                                                         <script type="text/javascript">
-                                                             //<![CDATA[
-                                                             var productAddToCartForm = new VarienForm('product_addtocart_form');
-                                                             productAddToCartForm.submit = function (button, url) {
-                                                                 if (this.validator.validate()) {
-                                                                     var form = this.form;
-                                                                     var oldUrl = form.action;
-
-                                                                     if (url) {
-                                                                         form.action = url;
-                                                                     }
-                                                                     var e = null;
-                                                                     try {
-                                                                         this.form.submit();
-                                                                     } catch (e) {
-                                                                     }
-                                                                     this.form.action = oldUrl;
-                                                                     if (e) {
-                                                                         throw e;
-                                                                     }
-
-                                                                     if (button && button != 'undefined') {
-                                                                         button.disabled = true;
-                                                                     }
-                                                                 }
-                                                             }.bind(productAddToCartForm);
-
-                                                             productAddToCartForm.submitLight = function (button, url) {
-                                                                 if (this.validator) {
-                                                                     var nv = Validation.methods;
-                                                                     delete Validation.methods['required-entry'];
-                                                                     delete Validation.methods['validate-one-required'];
-                                                                     delete Validation.methods['validate-one-required-by-name'];
-                                                                     // Remove custom datetime validators
-                                                                     for (var methodName in Validation.methods) {
-                                                                         if (methodName.match(/^validate-datetime-.*/i)) {
-                                                                             delete Validation.methods[methodName];
-                                                                         }
-                                                                     }
-
-                                                                     if (this.validator.validate()) {
-                                                                         if (url) {
-                                                                             this.form.action = url;
-                                                                         }
-                                                                         this.form.submit();
-                                                                     }
-                                                                     Object.extend(Validation.methods, nv);
-                                                                 }
-                                                             }.bind(productAddToCartForm);
-                                                             //]]>
-                                                         </script>
+                                             </div>
+                                             <div class="buttons-set">
+                                                 <p class="required">* Thông tin yêu cầu</p>
+                                                 <div class="bottom-button">
+                                                     <div class="back-link uk-float-left">
+                                                         <a href="http://www.thuhuongbakery.com.vn/customer/account/login/" class="back-link">
+                                                             <small>« </small>Quay lại                        </a>
                                                      </div>
-                                                     <div class="product-collateral">
-                                                                                 </div>
-                                                     <div class="product-categories">
-                                                          Danh Mục:
-                                                         <a href="http://www.thuhuongbakery.com.vn/chefs-thu-huong.html">Chef's Thu Huong</a>, <a href="http://www.thuhuongbakery.com.vn/chefs-thu-huong/san-pham-moi.html">Sản phẩm mới</a>, <a href="http://www.thuhuongbakery.com.vn/chefs-thu-huong/giang-sinh.html">Giáng sinh</a>, <a href="http://www.thuhuongbakery.com.vn/gato.html">Gato</a>, <a href="http://www.thuhuongbakery.com.vn/gato/banh-dac-biet.html">Bánh đặc biệt</a>, <a href="http://www.thuhuongbakery.com.vn/gato/banh-dac-biet/sour-cream-gato.html">Sour Cream</a>                    </div>
-                                                     <div id="reviews" class="product-review uk-margin-top">
-                                                         
-                                 <div class="box-collateral box-reviews" id="customer-reviews">
-                                         <div class="form-add">
-                                             <!--<p class="review-nologged" id="review-form">-->
-                                                 <!--</p>-->
-                                         <div class="account-login">
-                                                 <p class="uk-text-center uk-margin-top">
-                                         Bạn phải đăng nhập dể nhận xét sản phẩm    </p>
-
-                                     
-                                     <form action="http://www.thuhuongbakery.com.vn/customer/account/loginPost/" method="post" id="login-form" class="uk-form">
-                                         <input name="form_key" type="hidden" value="dUa7fXW4g4kBiyxa">
-                                         <div class="uk-grid uk-grid-collapse">
-                                             <div class="uk-width-medium-2-5 new-users">
-                                                 <div class="buttons-set">
-                                                     <button type="button" title="Tạo tài khoản mới" class="button uk-button uk-width-1-1" onclick="window.location='http://www.thuhuongbakery.com.vn/customer/account/create/';">
-                                                         Tạo tài khoản                    </button>
+                                                     <button type="submit" title="Gửi" class="button uk-button">
+                                                         Gửi                    </button>
                                                  </div>
                                              </div>
-                                             <div class="uk-width-medium-1-5 uk-text-center review-login-or">
-                                                 HOẶC            </div>
-                                             <div class="uk-width-medium-2-5 registered-users">
-                                                 <div class="content">
-                                                     <ul class="form-list uk-list">
-                                                         <li class="uk-form-row">
-                                                             <div class="input-box">
-                                                                 <input type="text" name="login[username]" value="" id="email" class="input-text required-entry validate-email uk-width-1-1" title="Địa chỉ email" placeholder="Địa chỉ email:">
-                                                             </div>
-                                                         </li>
-                                                         <li class="uk-form-row">
-                                                             <div class="input-box">
-                                                                 <input type="password" name="login[password]" class="input-text required-entry validate-password uk-width-1-1" id="pass" title="Mật khẩu" placeholder="Mật khẩu:">
-                                                             </div>
-                                                         </li>
-                                                                                 <li class="uk-form-row">
-                                                             <button type="submit" class="button uk-button uk-width-1-1" title="Đăng nhập" name="send" id="send2">
-                                                                 Đăng nhập                            </button>
-                                                         </li>
-                                                         <li class="uk-form-row uk-text-center">
-                                                             <a href="http://www.thuhuongbakery.com.vn/customer/account/forgotpassword/" class="review-login-forgot">
-                                                                 Quên mật khẩu                            </a>
-                                                         </li>
-                                                     </ul>
-                                                 </div>
-                                             </div>
-                                         </div>
-                                     </form>
-                                     <script type="text/javascript">
-                                         //<![CDATA[
-                                         var dataForm = new VarienForm('login-form', true);
-                                         //]]>
-                                     </script>
-                                 </div>
-                                     </div>
-                                 </div>
-                                                     </div>
-                                                 </div>
-                                             </div>
-                                         </div>
+                                                     </form>
+                                         <script type="text/javascript">
+                                             //<![CDATA[
+                                             var dataForm = new VarienForm('form-validate', true);
+                                                         //]]>
+                                         </script>
                                      </div>
                                  </div>
                                     
                                  <div class="clear"></div>
                               </div>
-                              
+                              <div class="h50"></div>
                               
                            </div>
 
-                           <section class="wpb-section wpb-section-1-cols wpb-section-columns wpb-font-dark"><div class="wpb-section-inner" style="padding-top:50px;padding-bottom:50px;"><div style="margin-top:0px;margin-bottom:0px;" class="wpb-row wpb-row-large-width"><div class="wpb-col-4 wpb-first"><div class="wpb-item-price wpb-clearfix wpb-item-price-layout-big-image wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;"><div class="wpb-item-price-image-container "><a class="wpb-lightbox" href="http://demo.wolfthemes.com/bite/wp-content/uploads/sites/15/2015/11/Indian-Food-wikicont.jpg" title="CORVINA TIRADITO" data-wpb-rel="item-price" rel="item-price"><img class="wpb-item-price-image" src="http://demo.wolfthemes.com/bite/wp-content/uploads/sites/15/2015/11/Indian-Food-wikicont-960x960.jpg" alt="CORVINA TIRADITO"></a></div><!--.wpb-item-price-image-container--><div class="wpb-item-price-text "><div class="wpb-item-price-title-container"><div class="wpb-item-price-title">CORVINA TIRADITO</div><div class="wpb-item-price-dots"></div><div class="wpb-item-price-price">$12</div></div><div class="wpb-clear"></div><span class="wpb-item-price-content">Avocado / Apple / Dired tuna / radish</span></div><!--.wpb-item-price-text--></div><!--.wpb-item-price--></div><!--.wpb-col--> <div class="wpb-col-4"><div class="wpb-item-price wpb-clearfix wpb-item-price-layout-big-image wow fadeInUp" style="animation-delay: 0.2s; visibility: visible; animation-name: fadeInUp;"><div class="wpb-item-price-image-container "><a class="wpb-lightbox" href="http://demo.wolfthemes.com/bite/wp-content/uploads/sites/15/2015/11/food-salad-healthy-lunch.jpg" title="CAESAR SALAD" data-wpb-rel="item-price" rel="item-price"><img class="wpb-item-price-image" src="http://demo.wolfthemes.com/bite/wp-content/uploads/sites/15/2015/11/food-salad-healthy-lunch-960x960.jpg" alt="CAESAR SALAD"></a></div><!--.wpb-item-price-image-container--><div class="wpb-item-price-text "><div class="wpb-item-price-title-container"><div class="wpb-item-price-title">CAESAR SALAD</div><div class="wpb-item-price-dots"></div><div class="wpb-item-price-price">$8</div></div><div class="wpb-clear"></div><span class="wpb-item-price-content">Romaine / Ancovies / Croutons</span></div><!--.wpb-item-price-text--></div><!--.wpb-item-price--></div><!--.wpb-col--> <div class="wpb-col-4 wpb-last"><div class="wpb-item-price wpb-clearfix wpb-item-price-layout-big-image wow fadeInRight" style="animation-delay: 0.2s; visibility: visible; animation-name: fadeInRight;"><div class="wpb-item-price-image-container "><a class="wpb-lightbox" href="http://demo.wolfthemes.com/bite/wp-content/uploads/sites/15/2015/11/food-salad-healthy-vegetables-1.jpg" title="FRIED GREEN TOMATOES" data-wpb-rel="item-price" rel="item-price"><img class="wpb-item-price-image" src="http://demo.wolfthemes.com/bite/wp-content/uploads/sites/15/2015/11/food-salad-healthy-vegetables-1-960x960.jpg" alt="FRIED GREEN TOMATOES"></a></div><!--.wpb-item-price-image-container--><div class="wpb-item-price-text "><div class="wpb-item-price-title-container"><div class="wpb-item-price-title">FRIED GREEN TOMATOES</div><div class="wpb-item-price-dots"></div><div class="wpb-item-price-price">$23</div></div><div class="wpb-clear"></div><span class="wpb-item-price-content">Spinach / Sean beans / Pepppadew-goat cheese sauce</span></div><!--.wpb-item-price-text--></div><!--.wpb-item-price--></div><!--.wpb-col--><div class="wpb-clearfix"></div></div><!--.wpb-row--><div style="margin-top:0px;margin-bottom:0px;" class="wpb-row wpb-row-large-width"><div class="wpb-col-4 wpb-first"><div class="wpb-item-price wpb-clearfix wpb-item-price-layout-big-image wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"><div class="wpb-item-price-image-container "><a class="wpb-lightbox" href="http://demo.wolfthemes.com/bite/wp-content/uploads/sites/15/2015/11/223_1r140806_eat_spots_sobanndls.jpg" title="LOBSTER ROLL" data-wpb-rel="item-price" rel="item-price"><img class="wpb-item-price-image" src="http://demo.wolfthemes.com/bite/wp-content/uploads/sites/15/2015/11/223_1r140806_eat_spots_sobanndls-960x960.jpg" alt="LOBSTER ROLL"></a></div><!--.wpb-item-price-image-container--><div class="wpb-item-price-text "><div class="wpb-item-price-title-container"><div class="wpb-item-price-title">LOBSTER ROLL</div><div class="wpb-item-price-dots"></div><div class="wpb-item-price-price">$16</div></div><div class="wpb-clear"></div><span class="wpb-item-price-content">With house made old bay patato</span></div><!--.wpb-item-price-text--></div><!--.wpb-item-price--></div><!--.wpb-col--> <div class="wpb-col-4"><div class="wpb-item-price wpb-clearfix wpb-item-price-layout-big-image wow fadeInUp" style="animation-delay: 0.2s; visibility: visible; animation-name: fadeInUp;"><div class="wpb-item-price-image-container "><a class="wpb-lightbox" href="http://demo.wolfthemes.com/bite/wp-content/uploads/sites/15/2015/11/food-plate-rucola-salad.jpg" title="MIZUNA SALAD" data-wpb-rel="item-price" rel="item-price"><img class="wpb-item-price-image" src="http://demo.wolfthemes.com/bite/wp-content/uploads/sites/15/2015/11/food-plate-rucola-salad-960x960.jpg" alt="MIZUNA SALAD"></a></div><!--.wpb-item-price-image-container--><div class="wpb-item-price-text "><div class="wpb-item-price-title-container"><div class="wpb-item-price-title">MIZUNA SALAD</div><div class="wpb-item-price-dots"></div><div class="wpb-item-price-price">$12</div></div><div class="wpb-clear"></div><span class="wpb-item-price-content">Truffe vinaigrette / Murcott tangerine / caciotta ai tartuto</span></div><!--.wpb-item-price-text--></div><!--.wpb-item-price--></div><!--.wpb-col--> <div class="wpb-col-4 wpb-last"><div class="wpb-item-price wpb-clearfix wpb-item-price-layout-big-image wow fadeInUp" style="animation-delay: 0.4s; visibility: visible; animation-name: fadeInUp;"><div class="wpb-item-price-image-container "><a class="wpb-lightbox" href="http://demo.wolfthemes.com/bite/wp-content/uploads/sites/15/2015/11/pexels-photo.jpg" title="NY STRIPS STEAK" data-wpb-rel="item-price" rel="item-price"><img class="wpb-item-price-image" src="http://demo.wolfthemes.com/bite/wp-content/uploads/sites/15/2015/11/pexels-photo-960x960.jpg" alt="NY STRIPS STEAK"></a></div><!--.wpb-item-price-image-container--><div class="wpb-item-price-text "><div class="wpb-item-price-title-container"><div class="wpb-item-price-title">NY STRIPS STEAK</div><div class="wpb-item-price-dots"></div><div class="wpb-item-price-price">$28</div></div><div class="wpb-clear"></div><span class="wpb-item-price-content">Crumbled blue cheese / garlic beurre</span></div><!--.wpb-item-price-text--></div><!--.wpb-item-price--></div><!--.wpb-col--><div class="wpb-clearfix"></div></div><!--.wpb-row-->
-                           </div><!--.wpb-section-inner-->
-                           </section>
+                           
                            <section style="background-position:center center;background-repeat:no-repeat;-webkit-background-size: 100%; -o-background-size: 100%; -moz-background-size: 100%; background-size: 100%;-webkit-background-size: cover; -o-background-size: cover; background-size: cover;" class="wpb-section wpb-section-3-cols wpb-section-blocks footer-block">
                               <div class="wpb-section-inner">
                                  <div class="wpb-blocks-wrapper">
@@ -693,6 +543,7 @@
                </div>
                <!-- #main -->
             </div>
+            
             <!-- #page-content -->
             <footer id="colophon" class="site-footer">
                <div class="footer-inner clearfix">
